@@ -1,5 +1,4 @@
 module WhoLoadedMe
-  VERSION = "0.1.1}"
 
   module_function
   def track!(track_file = nil)
