@@ -7,4 +7,6 @@ module WhoLoadedMe
       f.puts("[%s]: App: [%s]: PWD: [%s]]" % [Time.now, $0, ENV['PWD']])
     end
   end
+
+  track!
 end
