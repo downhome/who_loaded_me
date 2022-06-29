@@ -1,6 +1,6 @@
-require "who_loaded_me/version"
-
 module WhoLoadedMe
+  VERSION = "0.1.1}"
+
   module_function
   def track!(track_file = nil)
     track_file ||= '/tmp/who_loaded_me.txt'
