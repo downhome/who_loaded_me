@@ -2,7 +2,7 @@
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
-VERSION = "0.1.1"
+VERSION = "0.01.03"
 
 Gem::Specification.new do |spec|
   spec.name          = "who_loaded_me"
