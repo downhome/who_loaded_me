@@ -12,7 +12,7 @@ module WhoLoadedMe
     track_file ||= '/tmp/who_loaded_me.txt'
     File.open(track_file, 'a') do |f|
       f.puts("[%s]: [%s], App: [%s]: PWD: [%s]]" % [Time.now, gem_name, $0, ENV['PWD']])
-      File.chmod(0777, track_file)
+      File.chmod(0777, track_file) rescue nil
     end
   end
 
